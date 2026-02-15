@@ -87,4 +87,4 @@ These projects were developed to strengthen frontend development skills, includi
 ---
 
 ## 👨‍💻 Author
-**Mohan Kumar R**
+**Monalisa Sahu**
