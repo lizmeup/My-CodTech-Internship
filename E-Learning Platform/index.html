@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduPlatform | Learn Engineering</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo" onclick="goHome()">Edu<span>Platform</span></div>
+        <div class="nav-links">
+            <a href="#" class="nav-item">My Dashboard</a>
+            <div class="user-avatar">MK</div>
+        </div>
+    </nav>
+
+    <main class="container">
+
+        <section id="home-view" class="view-section active-view">
+            <header class="hero">
+                <h1>Welcome Back, Mohan</h1>
+                <p>Continue where you left off or start a new course.</p>
+            </header>
+            
+            <div class="course-grid" id="course-grid">
+                </div>
+        </section>
+
+        <section id="player-view" class="view-section">
+            <div onclick="goHome()" class="back-link">← Back to Courses</div>
+            
+            <div class="player-layout">
+                
+                <div class="video-section">
+                    <div class="video-wrapper">
+                        <iframe id="video-frame" src="" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <h2 id="course-title">Course Title</h2>
+                    <p class="instructor">Instructor: <span id="instructor-name">Name</span></p>
+                </div>
+
+                <div class="sidebar">
+                    <div class="progress-card">
+                        <h4>Your Progress: <span id="progress-text">0%</span></h4>
+                        <div class="progress-bg">
+                            <div class="progress-fill" id="progress-bar"></div>
+                        </div>
+                    </div>
+                    
+                    <h3>Curriculum</h3>
+                    <ul class="lesson-list" id="lesson-list">
+                        </ul>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
