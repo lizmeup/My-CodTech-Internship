@@ -39,4 +39,4 @@ This project is ideal for beginners to understand DOM manipulation, event handli
 - Backend integration for user accounts
 
 ## 👨‍💻 Author
-Mohan Kumar
+Monalisa Sahu 
